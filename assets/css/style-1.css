@@ -183,10 +183,10 @@ Version: 1.0
     padding-bottom: 70px;
 	z-index: 1;
 	position: relative;
-	background: #fb6857; /* Old browsers */
-	background: -moz-linear-gradient(-45deg, #fb6857 0%, #fc6b69 50%, #fe718a 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%);
+	background: #4267B2; /* Old browsers */
+	/* background: -moz-linear-gradient(-45deg, #fb6857 0%, #fc6b69 50%, #fe718a 100%); 
+	background: -webkit-linear-gradient(-45deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%);
+	background: linear-gradient(135deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%); */
 }
 .banner-area::before {
 	content: "";
@@ -257,10 +257,10 @@ Version: 1.0
 	z-index: 1;
 	position: relative;
     overflow: hidden;
-	background: #fb6857; /* Old browsers */
-	background: -moz-linear-gradient(-45deg, #fb6857 0%, #fc6b69 50%, #fe718a 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%);
+	background: #4267B2; /* Old browsers */
+	/* background: -moz-linear-gradient(-45deg, #fb6857 0%, #fc6b69 50%, #fe718a 100%); 
+	background: -webkit-linear-gradient(-45deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%);
+	background: linear-gradient(135deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%); */
 }
 .feature-area::before {
 	content: "";
@@ -397,10 +397,10 @@ Version: 1.0
 -------- SCREENSHOT AREA CSS START --------
 ---------------------------------------*/
 .screenshots-area {
-    background: #fb6857;
-    background: -moz-linear-gradient(left, #fb6857 0%, #fc6c70 50%, #fe7189 100%);
+    background: #4267B2;
+    /* background: -moz-linear-gradient(left, #fb6857 0%, #fc6c70 50%, #fe7189 100%);
     background: -webkit-linear-gradient(left, #fb6857 0%,#fc6c70 50%,#fe7189 100%);
-    background: linear-gradient(to right, #fb6857 0%,#fc6c70 50%,#fe7189 100%);
+    background: linear-gradient(to right, #fb6857 0%,#fc6c70 50%,#fe7189 100%); */
 }
 .screenshot-area-slider {
     padding: 0 50px;
@@ -452,7 +452,8 @@ Version: 1.0
     padding: 0 120px;
 }
 .author-feedback .owl-nav div {
-    background: #fe718b;
+    background: #4267B2;
+    /* background: #fe718b; */
 	color: #fff;
     margin-top: -10px;
 }
@@ -463,7 +464,8 @@ Version: 1.0
     opacity: 0.5;
     right: 15px;
     bottom: -12px;
-    background: #fe718b;
+    background: #4267B2;
+    /* background: #fe718b; */
     z-index: -1;
     position: absolute;
     border-radius: 5px;
@@ -475,7 +477,8 @@ Version: 1.0
     opacity: 0.5;
     right: 30px;
     bottom: -24px;
-    background: #fe718b;
+    background: #4267B2;
+    /* background: #fe718b; */
     z-index: -1;
     position: absolute;
     border-radius: 5px;
@@ -485,7 +488,8 @@ Version: 1.0
     margin: 45px 0 25px;
     position: relative;
     z-index: 1;
-    background: #fe718b;
+    background: #4267B2;
+    /* background: #fe718b; */
     text-align: center;
     padding: 55px 50px 0;
     border-radius: 5px;
@@ -641,10 +645,10 @@ Version: 1.0
     left: 0;
     bottom: 0;
     width: 100%;
-    background: #fb6857;
-    background: -moz-linear-gradient(-45deg, #fb6857 0%, #fc6b69 50%, #fe718a 100%);
+    background: #4267B2;
+    /* background: -moz-linear-gradient(-45deg, #fb6857 0%, #fc6b69 50%, #fe718a 100%);
     background: -webkit-linear-gradient(-45deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%);
-    background: linear-gradient(135deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%);
+    background: linear-gradient(135deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%); */
     color: white;
     text-align: center;
   }
@@ -697,10 +701,10 @@ Version: 1.0
 	font-size: 28px;
     line-height: 48px;
 	border: 3px double #fff;
-    background: #fb6857;
-    background: -moz-linear-gradient(left, #fb6857 0%, #fc6c70 50%, #fe7189 100%);
+    background: #4267B2;
+    /* background: -moz-linear-gradient(left, #fb6857 0%, #fc6c70 50%, #fe7189 100%);
     background: -webkit-linear-gradient(left, #fb6857 0%,#fc6c70 50%,#fe7189 100%);
-    background: linear-gradient(to right, #fb6857 0%,#fc6c70 50%,#fe7189 100%);
+    background: linear-gradient(to right, #fb6857 0%,#fc6c70 50%,#fe7189 100%); */
 }
 .scrolltotop:hover {
 	transform: scale(0.9);
