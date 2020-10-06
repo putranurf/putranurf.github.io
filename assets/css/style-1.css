@@ -75,7 +75,7 @@ Version: 1.0
 .appbox-btns {
     background: #ffffff;
     border: 1px solid #ffffff;
-    color: #fb695a;
+    color: #ff1900;
     padding: 50px 80px;
     display: inline-block;
     font-weight: 600;
@@ -86,7 +86,7 @@ Version: 1.0
 .appbox-btn {
     background: #ffffff;
     border: 1px solid #ffffff;
-    color: #fb695a;
+    color: #ff1900;
     padding: 30px 60px;
     display: inline-block;
     font-weight: 600;
@@ -112,10 +112,10 @@ Version: 1.0
 .appbox-btn3 {
     color: #ffffff;
     border: 1px solid #fb6857;
-	background: #fb6857; /* Old browsers */
-	background: -moz-linear-gradient(left, #fb6857 0%, #fc6c70 50%, #fe7189 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #fb6857 0%,#fc6c70 50%,#fe7189 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, #fb6857 0%,#fc6c70 50%,#fe7189 100%);
+	background: #ff1900; /* Old browsers */
+	/* background: -moz-linear-gradient(left, #fb6857 0%, #fc6c70 50%, #fe7189 100%); 
+	background: -webkit-linear-gradient(left, #fb6857 0%,#fc6c70 50%,#fe7189 100%); 
+	background: linear-gradient(to right, #fb6857 0%,#fc6c70 50%,#fe7189 100%); */
 }
 .appbox-btn3:hover {
     color: #fb6857;
@@ -163,14 +163,14 @@ Version: 1.0
 .slicknav_menu {
 	display: none;
 }
-.header.sticky {
+/* .header.sticky {
     padding: 10px 0;
 	border-bottom: 1px solid #fff;
     background: #fb6857;
     background: -moz-linear-gradient(left, #fb6857 0%, #fc6c70 50%, #fe7189 100%);
     background: -webkit-linear-gradient(left, #fb6857 0%,#fc6c70 50%,#fe7189 100%);
     background: linear-gradient(to right, #fb6857 0%,#fc6c70 50%,#fe7189 100%);
-}
+} */
 /*--------------------------------------
 --------- HEADER AREA CSS END ---------
 ---------------------------------------*/
@@ -622,7 +622,7 @@ Version: 1.0
 /*--------------------------------------
 --------- FOOTER AREA CSS START --------
 ---------------------------------------*/
-.footer {
+/* .footer {
 	padding: 22px 0;
 	font-size: 12px;
 	color: #fff;
@@ -632,7 +632,22 @@ Version: 1.0
     background: -moz-linear-gradient(-45deg, #fb6857 0%, #fc6b69 50%, #fe718a 100%);
     background: -webkit-linear-gradient(-45deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%);
     background: linear-gradient(135deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%);
-}
+} */
+.footer {
+    padding: 22px 0;
+    font-size: 12px;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #fb6857;
+    background: -moz-linear-gradient(-45deg, #fb6857 0%, #fc6b69 50%, #fe718a 100%);
+    background: -webkit-linear-gradient(-45deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%);
+    background: linear-gradient(135deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%);
+    color: white;
+    text-align: center;
+  }
 .footer::before {
     content: "";
     left: 0;
