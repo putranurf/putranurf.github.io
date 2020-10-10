@@ -83,6 +83,17 @@ Version: 1.0
     font-size: 18px;
 	border-radius: 30px;
 }
+.appbox-btnf {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    font-weight: 600;
+	cursor: pointer;
+    font-size: 16px;
+	/* border-radius: 30px; */
+}
 .appbox-btn {
     background: #ffffff;
     border: 1px solid #ffffff;
@@ -96,6 +107,11 @@ Version: 1.0
 }
 .appbox-btn2,
 .appbox-btns:hover {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.appbox-btnf:hover {
     background: transparent;
     border: 1px solid #ffffff;
     color: #ffffff;
@@ -120,6 +136,19 @@ Version: 1.0
 .appbox-btn3:hover {
     color: #fb6857;
     border: 1px solid #fb6857;
+}
+
+.appbox-btn4 {
+    color: #000;
+    border: 1px solid #fff;
+	background: #fff; /* Old browsers */
+	/* background: -moz-linear-gradient(left, #fb6857 0%, #fc6c70 50%, #fe7189 100%); 
+	background: -webkit-linear-gradient(left, #fb6857 0%,#fc6c70 50%,#fe7189 100%); 
+	background: linear-gradient(to right, #fb6857 0%,#fc6c70 50%,#fe7189 100%); */
+}
+.appbox-btn4:hover {
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 /*--------------------------------------
@@ -638,7 +667,7 @@ Version: 1.0
     background: linear-gradient(135deg, #fb6857 0%,#fc6b69 50%,#fe718a 100%);
 } */
 .footer {
-    padding: 22px 0;
+    padding: 10px;
     font-size: 12px;
     z-index: 1;
     position: fixed;
@@ -652,7 +681,22 @@ Version: 1.0
     color: white;
     text-align: center;
   }
+
 .footer::before {
+    content: "";
+    left: 0;
+    opacity: 0.4;
+    right: 0;
+    bottom: 0;
+    /* background-image: url(../img/appbox-img-1/footer-shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+}
+/* .footer::before {
     content: "";
     left: 0;
     opacity: 0.4;
@@ -664,7 +708,7 @@ Version: 1.0
     background-size: cover;
     z-index: -1;
     position: absolute;
-    top: 0px;
+    top: 0px; */
 }
 .footer a {
 	color: #fff;
@@ -712,6 +756,35 @@ Version: 1.0
 }
 .scrolltotop:focus ,
 .scrolltotop:hover {
+	border: 3px double #fff;
+}
+
+.scrolltodown {
+    position: fixed;
+    bottom: 30px;
+    text-align: center;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+    display: none;
+    text-decoration: none;
+    border-radius: 100%;
+    color: #fff;
+	font-size: 28px;
+    line-height: 48px;
+	border: 3px double #fff;
+    /* background: #4267B2; */
+    /* background: -moz-linear-gradient(left, #fb6857 0%, #fc6c70 50%, #fe7189 100%);
+    background: -webkit-linear-gradient(left, #fb6857 0%,#fc6c70 50%,#fe7189 100%);
+    background: linear-gradient(to right, #fb6857 0%,#fc6c70 50%,#fe7189 100%); */
+}
+.scrolltodown:hover {
+	transform: scale(0.9);
+    color: #fff;
+}
+.scrolltodown:focus ,
+.scrolltodown:hover {
 	border: 3px double #fff;
 }
 /*--------------------------------------
